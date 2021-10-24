@@ -26,18 +26,19 @@
 				<Item Name="Task Interface.lvlib" Type="Library" URL="../BuildWorker/Classes/Task Interface.lvlib"/>
 				<Item Name="Task Setting Editor.lvlib" Type="Library" URL="../BuildServer/Actors/Task Setting Editor/Task Setting Editor.lvlib"/>
 			</Item>
-			<Item Name="BuildServer" Type="Folder">
-				<Item Name="BuildServer.lvlib" Type="Library" URL="../BuildServer/Actors/BuildServer/BuildServer.lvlib"/>
-			</Item>
-			<Item Name="BuildWorker" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../BuildWorker/BuildWorker Launcher.vi"/>
-				<Item Name="BuildWorker Controller.lvlib" Type="Library" URL="../BuildWorker/Classes/BuildWorker Controller/BuildWorker Controller.lvlib"/>
-				<Item Name="BuildWorker.lvlib" Type="Library" URL="../BuildWorker/Actors/BuildWorker/BuildWorker.lvlib"/>
-			</Item>
 			<Item Name="Framework.lvlib" Type="Library" URL="../WebSocket Server/Actors/Actor wHelper/Framework.lvlib"/>
 		</Item>
-		<Item Name="BuildServer Launcher.vi" Type="VI" URL="../BuildServer/BuildServer Launcher.vi"/>
+		<Item Name="BuildServer" Type="Folder">
+			<Item Name="BuildServer.lvlib" Type="Library" URL="../BuildServer/Actors/BuildServer/BuildServer.lvlib"/>
+			<Item Name="BuildServer Launcher.vi" Type="VI" URL="../BuildServer/BuildServer Launcher.vi"/>
+		</Item>
+		<Item Name="BuildWorker" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../BuildWorker/BuildWorker Launcher.vi"/>
+			<Item Name="BuildWorker Controller.lvlib" Type="Library" URL="../BuildWorker/Classes/BuildWorker Controller/BuildWorker Controller.lvlib"/>
+			<Item Name="BuildWorker.lvlib" Type="Library" URL="../BuildWorker/Actors/BuildWorker/BuildWorker.lvlib"/>
+		</Item>
+		<Item Name="BuildFarm INI Tool.vi" Type="VI" URL="../BuildFarm INI Tool.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -126,6 +127,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="DOMUserDefRef.framework" Type="Document" URL="DOMUserDefRef.framework">
