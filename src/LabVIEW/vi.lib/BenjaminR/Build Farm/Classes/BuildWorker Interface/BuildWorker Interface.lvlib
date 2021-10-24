@@ -6,5 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="BuildWorker.lvclass" Type="LVClass" URL="../BuildWorker/BuildWorker.lvclass"/>
-	<Item Name="BuildWorker Controller.lvclass" Type="LVClass" URL="../../../../../../../BuildWorker/Classes/BuildWorker Controller/BuildWorker Controller.lvclass"/>
+	<Item Name="BuildWorker Basics.lvclass" Type="LVClass" URL="../BuildWorker Basics/BuildWorker Basics.lvclass"/>
+	<Item Name="BuildWorker Controller.lvclass" Type="LVClass" URL="../BuildWorker Controller/BuildWorker Controller.lvclass"/>
 </Library>

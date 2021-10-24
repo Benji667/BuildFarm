@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
 			<Item Name="BuildServer.lvlib" Type="Library" URL="../Actors/BuildServer/BuildServer.lvlib"/>
+			<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../BuildWorker Launcher.vi"/>
 			<Item Name="BuildWorker.lvlib" Type="Library" URL="../Actors/BuildWorker/BuildWorker.lvlib"/>
 			<Item Name="Connection Handler.lvlib" Type="Library" URL="../Actors/Communication/Connection Handler/Connection Handler.lvlib"/>
 			<Item Name="Connection Listener.lvlib" Type="Library" URL="../Actors/Communication/Connection Listener/Connection Listener.lvlib"/>
@@ -26,13 +27,13 @@
 			<Item Name="Message Interface.lvlib" Type="Library" URL="../Classes/Message Interface/Message Interface.lvlib"/>
 			<Item Name="Task Interface.lvlib" Type="Library" URL="../Classes/Task Interface/Task Interface.lvlib"/>
 		</Item>
-		<Item Name="BuildServer Launcher.vi" Type="VI" URL="../BuildServer Launcher.vi"/>
-		<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../../../../../BuildWorker/BuildWorker Launcher.vi"/>
+		<Item Name="Support" Type="Folder">
+			<Item Name="BuildFarm Directory.vi" Type="VI" URL="../BuildFarm Directory.vi"/>
+		</Item>
+		<Item Name="BuildFarm Launcher.vi" Type="VI" URL="../../../../project/BenjaminR/Build Farm/BuildFarm Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
@@ -109,6 +110,7 @@
 				<Item Name="Sockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/Sockets/Sockets.lvlib"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -116,20 +118,15 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Actor wHelper.lvclass" Type="LVClass" URL="../../WebSocket Server/Actors/Actor wHelper/Actor wHelper/Actor wHelper.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="BuildWorker.lvclass" Type="LVClass" URL="../../../../../BuildWorker/Classes/BuildWorker/BuildWorker.lvclass"/>
 			<Item Name="DOMUserDefRef.framework" Type="Document" URL="DOMUserDefRef.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="systemLogging.framework" Type="Document" URL="systemLogging.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Task.ctl" Type="VI" URL="../../../../../BuildWorker/Classes/Task/Task.lvclass/Task.ctl"/>
-			<Item Name="Task.lvclass" Type="LVClass" URL="../../../../../BuildWorker/Classes/Task/Task.lvclass"/>
-			<Item Name="Write Display Name.vi" Type="VI" URL="../../../../../BuildWorker/Classes/Task/Write Display Name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
