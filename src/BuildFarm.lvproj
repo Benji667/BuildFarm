@@ -14,34 +14,34 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="BuildServer" Type="Folder">
-				<Item Name="BuildServer.lvlib" Type="Library" URL="../Actors/BuildServer/BuildServer.lvlib"/>
+				<Item Name="BuildServer.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/BuildServer/BuildServer.lvlib"/>
 			</Item>
 			<Item Name="BuildWorker" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="BuildWorker Interface.lvlib" Type="Library" URL="../Classes/BuildWorker Interface/BuildWorker Interface.lvlib"/>
-				<Item Name="BuildWorker.lvlib" Type="Library" URL="../Actors/BuildWorker/BuildWorker.lvlib"/>
-				<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../BuildWorker Launcher.vi"/>
+				<Item Name="BuildWorker Interface.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Classes/BuildWorker Interface/BuildWorker Interface.lvlib"/>
+				<Item Name="BuildWorker.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/BuildWorker/BuildWorker.lvlib"/>
+				<Item Name="BuildWorker Launcher.vi" Type="VI" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/BuildWorker Launcher.vi"/>
 			</Item>
 			<Item Name="Communication" Type="Folder">
-				<Item Name="Comm Interface.lvlib" Type="Library" URL="../Classes/Comm Interface/Comm Interface.lvlib"/>
-				<Item Name="Connection Handler.lvlib" Type="Library" URL="../Actors/Communication/Connection Handler/Connection Handler.lvlib"/>
-				<Item Name="Connection Listener.lvlib" Type="Library" URL="../Actors/Communication/Connection Listener/Connection Listener.lvlib"/>
-				<Item Name="Message Interface.lvlib" Type="Library" URL="../Classes/Message Interface/Message Interface.lvlib"/>
-				<Item Name="WebSocket Client.lvlib" Type="Library" URL="../Actors/Communication/WebSocket Client/WebSocket Client.lvlib"/>
+				<Item Name="Comm Interface.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Classes/Comm Interface/Comm Interface.lvlib"/>
+				<Item Name="Connection Handler.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/Communication/Connection Handler/Connection Handler.lvlib"/>
+				<Item Name="Connection Listener.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/Communication/Connection Listener/Connection Listener.lvlib"/>
+				<Item Name="Message Interface.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Classes/Message Interface/Message Interface.lvlib"/>
+				<Item Name="WebSocket Client.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/Communication/WebSocket Client/WebSocket Client.lvlib"/>
 			</Item>
 			<Item Name="Task" Type="Folder">
-				<Item Name="Task Interface.lvlib" Type="Library" URL="../Classes/Task Interface/Task Interface.lvlib"/>
-				<Item Name="Task Setting Editor.lvlib" Type="Library" URL="../Actors/Task Setting Editor/Task Setting Editor.lvlib"/>
+				<Item Name="Task Interface.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Classes/Task Interface/Task Interface.lvlib"/>
+				<Item Name="Task Setting Editor.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/Task Setting Editor/Task Setting Editor.lvlib"/>
 			</Item>
-			<Item Name="Framework.lvlib" Type="Library" URL="../Actors/Framework/Framework.lvlib"/>
+			<Item Name="Framework.lvlib" Type="Library" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Actors/Framework/Framework.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
-			<Item Name="BuildFarm Directory.vi" Type="VI" URL="../Support/BuildFarm Directory.vi"/>
+			<Item Name="BuildFarm Directory.vi" Type="VI" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Support/BuildFarm Directory.vi"/>
 			<Item Name="BuildFarm INI Tool.vi" Type="VI" URL="../BuildFarm INI Tool.vi"/>
-			<Item Name="BuildFarm Installer.vi" Type="VI" URL="../../../../BuildFarm Installer.vi"/>
-			<Item Name="Tree Rows From Delimited String Array.vi" Type="VI" URL="../Support/Tree Rows From Delimited String Array.vi"/>
+			<Item Name="BuildFarm Installer.vi" Type="VI" URL="../BuildFarm Installer.vi"/>
+			<Item Name="Tree Rows From Delimited String Array.vi" Type="VI" URL="../LabVIEW/vi.lib/BenjaminR/Build Farm/Support/Tree Rows From Delimited String Array.vi"/>
 		</Item>
-		<Item Name="BuildFarm Launcher.vi" Type="VI" URL="../../../../project/BenjaminR/Build Farm/BuildFarm Launcher.vi"/>
+		<Item Name="BuildFarm Launcher.vi" Type="VI" URL="../LabVIEW/project/BenjaminR/Build Farm/BuildFarm Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
